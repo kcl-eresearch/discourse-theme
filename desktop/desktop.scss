@@ -1,0 +1,29 @@
+@import "common/foundation/variables";
+
+.d-header {
+  height: 4.6em;
+
+  #site-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 92px;
+
+    @media (min-width: 1076px) {
+      left: -4%;
+      height: 100px;
+      width: 130px;
+    }
+
+    @media (min-width: 1303px) {
+      left: -7%;
+      height: 100px;
+      width: 130px;
+    }
+  }
+}
+
+#main-outlet {
+  padding-top: 7.5em;
+}

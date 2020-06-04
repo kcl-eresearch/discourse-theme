@@ -1,0 +1,21 @@
+{
+  "name": "NMS Theme",
+  "about_url": null,
+  "license_url": null,
+  "assets": {
+  },
+  "color_schemes": {
+    "NMS Primary": {
+      "primary": "333C3E",
+      "secondary": "ffffff",
+      "tertiary": "0A2D50",
+      "quaternary": "0A2D50",
+      "header_background": "333C3E",
+      "header_primary": "ffffff",
+      "highlight": "f8f9fa",
+      "danger": "E2231A",
+      "success": "28C382",
+      "love": "FC5E72"
+    }
+  }
+}
