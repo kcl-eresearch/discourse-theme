@@ -3,6 +3,10 @@
 .d-header {
   height: 4.6em;
 
+  .title {
+    width: 80px;
+  }
+
   #site-logo {
     position: absolute;
     top: 0;
@@ -26,4 +30,8 @@
 
 #main-outlet {
   padding-top: 7.5em;
+}
+
+.btn {
+  border-radius: 0.35rem;
 }
