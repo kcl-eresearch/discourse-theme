@@ -32,6 +32,10 @@
   padding-top: 7.5em;
 }
 
-.btn {
+.btn, .nav-pills>li>a {
   border-radius: 0.35rem;
+}
+
+.nav-pills>li>a:hover {
+  background-color: #0a2d50;
 }
