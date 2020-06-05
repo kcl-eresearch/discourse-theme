@@ -10,10 +10,14 @@
     width: 0;
 
     @media (min-width: 700px) {
-      width: 90px;
+      width: 150px;
     }
 
     @media (min-width: 1076px) {
+      width: 100px;
+    }
+
+    @media (min-width: 1561px) {
       width: 60px;
     }
   }
