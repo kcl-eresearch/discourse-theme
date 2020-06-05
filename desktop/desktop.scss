@@ -2,6 +2,9 @@
 
 .d-header {
   height: 4.6em;
+  background-image: url(https://theme.nms.kcl.ac.uk/images/header.png?003e2cd…);
+  background-repeat: no-repeat;
+  background-position: right top;
 
   .title {
     width: 80px;
@@ -25,6 +28,10 @@
       height: 100px;
       width: 130px;
     }
+  }
+
+  .d-header-icons .d-icon {
+    color: #e6ebed;
   }
 }
 
