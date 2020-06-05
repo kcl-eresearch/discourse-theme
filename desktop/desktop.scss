@@ -30,8 +30,15 @@
     }
   }
 
-  .d-header-icons .d-icon {
-    color: #e6ebed;
+  .d-header-icons {
+    .d-icon {
+      color: #e6ebed;
+    }
+
+    .icon:hover, .icon:focus {
+      color: #000;
+      background-color: #e6ebed;
+    }
   }
 }
 
