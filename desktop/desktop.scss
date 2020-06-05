@@ -7,13 +7,17 @@
   background-position: right top;
 
   .title {
-    width: 60px;
+    width: 90px;
+
+    @media (min-width: 1076px) {
+      width: 60px;
+    }
   }
 
   #site-logo {
     position: absolute;
     top: 0;
-    left: 0;
+    left: -10px;
     height: 70px;
     width: 92px;
 
