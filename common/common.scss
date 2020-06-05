@@ -8,3 +8,21 @@
     font-weight: 700;
   }
 }
+
+.btn, .nav-pills>li>a {
+  border-radius: 0.35rem;
+}
+
+.nav-pills>li>a:hover {
+  background-color: #0a2d50;
+  color: #FFF;
+}
+
+.post-notice {
+  background-color: #3498DB;
+  color: #FFF;
+
+  svg {
+    color: #FFF;
+  }
+}
