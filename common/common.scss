@@ -200,3 +200,11 @@ input[type="color"]:focus,
   margin: 0 0.59em 2em .59em;
   background: white;
 }
+
+.topic-body {
+  padding: 12px 0 0 12px;
+
+  &.highlighted {
+    animation: none;
+  }
+}
