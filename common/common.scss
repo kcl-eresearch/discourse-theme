@@ -216,7 +216,7 @@ input[type="color"]:focus,
   &:hover {
     background: var(--tertiary);
     color: var(--secondary);
-    box-shadow: 4px 4px $color-box-shadow;
+    box-shadow: 4px 4px $kcl-blue;
     transition: all 0.3s linear;
     @include border-radius;
 
