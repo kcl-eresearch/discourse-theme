@@ -1,0 +1,32 @@
+@mixin border-radius {
+    border-radius: 10px;
+}
+
+$kcl-blue: #0A2D50 !default;
+$kcl-indigo: #005AD2 !default;
+$kcl-purple: #7242C2 !default;
+$kcl-pink: #FC5E72 !default;
+$kcl-red: #E2231A !default;
+$kcl-orange: #FF5F05 !default;
+$kcl-yellow: #F39C12 !default;
+$kcl-green: #28C382 !default;
+$kcl-teal: #009EA0 !default;
+$kcl-cyan: #3498DB !default;
+
+$kingsred: #E2231A;
+$kingsgrey: #5a6369;
+$kingsdarkgrey: #333C3E;
+$pearlgrey: #CDD7DC;
+
+$color-white: #fff !default;
+$color-gray-100: #f8f9fa !default;
+$color-gray-200: #e9ecef !default;
+$color-gray-300: #dee2e6 !default;
+$color-gray-400: #ced4da !default;
+$color-gray-500: #adb5bd !default;
+$color-gray-600: #6c757d !default;
+$color-gray-700: #495057 !default;
+$color-gray-800: #343a40 !default;
+$color-gray-900: #212529 !default;
+$color-gray-1000: #121517 !default;
+$color-black: #000 !default;
