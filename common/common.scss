@@ -200,28 +200,3 @@ input[type="color"]:focus,
   margin: 0 0.59em 2em .59em;
   background: white;
 }
-
-#create-topic {
-  color: var(--secondary);
-  background: var(--tertiary);
-  transition: all 0.3s linear;
-  @include border-radius;
-  text-transform: uppercase;
-  border: 2px solid var(--tertiary);
-
-  .fa {
-    color: var(--secondary);
-  }
-
-  &:hover {
-    background: var(--tertiary);
-    color: var(--secondary);
-    box-shadow: 4px 4px $kcl-blue;
-    transition: all 0.3s linear;
-    @include border-radius;
-
-    .fa {
-      color: var(--secondary);
-    }
-  }
-}
