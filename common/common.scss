@@ -35,24 +35,29 @@
 
 // Below copied from er-theme.
 
-.alert-info {
-  background-color: #3498db;
-  color: #0a2639;
-}
+.alert {
+  @include border-radius;
+  padding: 0.75rem 1.25rem;
 
-.alert-success {
-  background-color: #28c382;
-  color: #051a11;
-}
+  &.alert-info {
+    background-color: #3498db;
+    color: #0a2639;
+  }
 
-.alert-danger {
-  background-color: #e2231a;
-  color: #FFF;
-}
+  &.alert-success {
+    background-color: #28c382;
+    color: #051a11;
+  }
 
-.alert-warning {
-  background-color: #f39c12;
-  color: #362203;
+  &.alert-danger {
+    background-color: #e2231a;
+    color: #FFF;
+  }
+
+  &.alert-warning {
+    background-color: #f39c12;
+    color: #362203;
+  }
 }
 
 // Below copied from mint theme.
