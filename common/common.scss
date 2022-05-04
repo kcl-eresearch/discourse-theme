@@ -1,14 +1,7 @@
 @import 'variables';
 
-.alert.alert-info {
-  background-color: #3498DB;
-  color: $color-white;
-
-  a {
-    color: $color-white;
-    text-decoration: underline;
-    font-weight: 700;
-  }
+.admin-main-nav .nav-pills>li {
+  margin: 0 5px;
 }
 
 .btn, .nav-pills>li>a {
@@ -16,12 +9,12 @@
 }
 
 .nav-pills>li>a:hover {
-  background-color: #0a2d50;
+  background-color: $kcl-blue;
   color: $color-white;
 }
 
 .post-notice {
-  background-color: #3498DB;
+  background-color: $kcl-cyan;
   color: $color-white;
 
   svg {
@@ -44,7 +37,7 @@
   }
 
   &.alert-info {
-    background-color: #3498db;
+    background-color: $kcl-cyan;
     color: #0a2639;
 
     a {
@@ -53,7 +46,7 @@
   }
 
   &.alert-success {
-    background-color: #28c382;
+    background-color: $kcl-green;
     color: #051a11;
 
     a {
@@ -62,12 +55,12 @@
   }
 
   &.alert-danger {
-    background-color: #e2231a;
+    background-color: $kcl-red;
     color: #FFF;
   }
 
   &.alert-warning {
-    background-color: #f39c12;
+    background-color: $kcl-yellow;
     color: #362203;
 
     a {
