@@ -17,5 +17,9 @@
       "success": "28C382",
       "love": "FC5E72"
     }
-  }
+  },
+  "components": [
+    "https://github.com/discourse/discourse-showcased-categories.git",
+    "https://github.com/discourse/discourse-search-banner.git"
+  ]
 }
