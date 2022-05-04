@@ -1,11 +1,11 @@
 {
-  "name": "NMS Theme",
+  "name": "KCL Theme",
   "about_url": null,
   "license_url": null,
   "assets": {
   },
   "color_schemes": {
-    "NMS Primary": {
+    "KCL Primary": {
       "primary": "333C3E",
       "secondary": "ffffff",
       "tertiary": "0A2D50",
