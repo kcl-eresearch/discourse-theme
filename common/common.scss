@@ -39,14 +39,26 @@
   @include border-radius;
   padding: 0.75rem 1.25rem;
 
+  a {
+    font-weight: 700;  
+  }
+
   &.alert-info {
     background-color: #3498db;
     color: #0a2639;
+
+    a {
+      color: #0a2639;
+    }
   }
 
   &.alert-success {
     background-color: #28c382;
     color: #051a11;
+
+    a {
+      color: #051a11;
+    }
   }
 
   &.alert-danger {
@@ -57,6 +69,10 @@
   &.alert-warning {
     background-color: #f39c12;
     color: #362203;
+
+    a {
+      color: #362203;
+    }
   }
 }
 
