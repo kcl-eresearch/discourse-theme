@@ -33,6 +33,28 @@
     background: $color-white;
 }
 
+// Below copied from er-theme.
+
+.alert-info {
+  background-color: #3498db;
+  color: #0a2639;
+}
+
+.alert-success {
+  background-color: #28c382;
+  color: #051a11;
+}
+
+.alert-danger {
+  background-color: #e2231a;
+  color: #FFF;
+}
+
+.alert-warning {
+  background-color: #f39c12;
+  color: #362203;
+}
+
 // Below copied from mint theme.
 
 input[type="text"],
@@ -50,7 +72,8 @@ input[type="search"],
 input[type="tel"],
 input[type="color"],
 .d-editor-textarea-wrapper,
-.select-kit-header {
+.select-kit-header,
+.search-menu .search-input {
   @include border-radius;
 }
 
