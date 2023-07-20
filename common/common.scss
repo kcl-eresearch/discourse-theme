@@ -133,8 +133,6 @@ input[type="color"]:focus,
     @include mint-card-bg;
     padding: 2em 2em 1em;
     border-top: 8px solid $tertiary;
-    box-shadow: 0 8px 60px 0 rgba(103, 151, 255, 0.1),
-      0 12px 90px 0 rgba(133, 255, 103, 0.1);
     .header-wrapper {
       background-color: transparent;
       a h2 {
@@ -149,7 +147,6 @@ input[type="color"]:focus,
       background: var(--tertiary);
       transition: all 0.3s linear;
       border-radius: var(--mint-border-radius);
-      text-transform: uppercase;
       border: 1px solid var(--tertiary);
       &:hover {
         color: var(--secondary);
