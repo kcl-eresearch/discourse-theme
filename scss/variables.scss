@@ -2,6 +2,21 @@
     border-radius: .35rem;
 }
 
+@mixin mint-card-bg {
+  background: var(--primary-very-low);
+
+  @media (prefers-color-scheme: light) {
+    background: var(--header_background);
+  }
+}
+
+:root {
+  --mint-border-radius: 10px;
+  --mint-hover-shadow: 4px 4px var(--tertiary-high);
+  --mint-color-mint: #5a6369;
+  --mint-color-blue: #0A2D50;
+}
+
 $kcl-blue: #0A2D50 !default;
 $kcl-indigo: #005AD2 !default;
 $kcl-purple: #7242C2 !default;
