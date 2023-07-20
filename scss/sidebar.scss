@@ -1,5 +1,7 @@
 #main-outlet-wrapper {
   .sidebar-wrapper {
     background-color: var(--secondary);
+    box-shadow: 0 8px 60px 0 rgba(209, 209, 209, 0.1),
+      0 12px 90px 0 rgba(88, 88, 88, 0.1);
   }
 }
