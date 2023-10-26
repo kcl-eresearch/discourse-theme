@@ -1,5 +1,6 @@
 @import "variables";
 @import "sidebar";
+@import "chat";
 
 .admin-controls .nav-pills>li,
 .admin-main-nav .nav-pills>li {
@@ -160,6 +161,10 @@ input[type="color"]:focus,
       }
     }
   }
+
+  .loading-container:not(:has(.spinner)) {
+    min-height: unset;
+  }
 }
 
 .navigation-categories .search-banner {
@@ -180,7 +185,7 @@ input[type="color"]:focus,
     border-radius: var(--mint-border-radius);
     padding: 2em;
     @include mint-card-bg;
-    border-top: 8px solid $tertiary;
+    border-top: 8px solid var(--tertiary);
     margin-top: 0.8em;
   }
 }
@@ -357,8 +362,8 @@ a {
   color: var(--tertiary-hover);
 }
 
-.discourse-no-touch .btn:hover,
-.discourse-no-touch .btn.btn-hover {
+.discourse-no-touch .btn:not(.btn-flat):hover,
+.discourse-no-touch .btn:not(.btn-flat).btn-hover {
   color: var(--secondary);
   background: var(--tertiary-hover);
   border-radius: 5px;
